@@ -1,0 +1,289 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px 16px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+
+.main-header {
+  background-color: #23272A;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.login-btn .btn {
+  background-color: white;
+  color: #23272A;
+}
+
+.login-btn .btn:hover {
+  background-color: #f6f6f6;
+}
+
+.hero {
+  background-color: #23272A;
+  padding: 70px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #5865F2;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.download-icon {
+  margin-right: 10px;
+}
+
+.system-req {
+  display: block;
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.download-platforms {
+  background-color: #f6f6f6;
+  padding: 60px 0;
+  color: #23272A;
+}
+
+.platforms-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.platform-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(50% - 20px);
+  min-width: 280px;
+}
+
+.platform-card h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.platform-download-btn {
+  display: inline-block;
+  background-color: #23272A;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+
+
+.platform-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.platform-image img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.test-build {
+  flex: 1 0 calc(50% - 20px);
+}
+
+.test-build p {
+  margin-bottom: 15px;
+}
+.main-footer {
+  background-color: #23272A;
+  padding: 60px 0 30px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-selector img {
+  width: 20px;
+  height: 15px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+.social-icon {
+  width: 25px;
+  height: 25px;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #3e4247;
+}
+.footer-column {
+  flex: 1;
+}
+.footer-column h3 {
+  color: #5865F2;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+.footer-column.resources {
+  flex: 1.5;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px;
+  margin-right: 10px;
+}
+.signup-btn .btn {
+  background-color: #5865F2;
+  color: white;
+}
+.signup-btn .btn:hover {
+  background-color: #4752c4;
+}
+
+

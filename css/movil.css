@@ -1,0 +1,28 @@
+
+@media (max-width: 768px) {
+  .hero-content {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .hero-text {
+      margin-bottom: 40px;
+  }
+  
+  .hero-text h1 {
+      font-size: 40px;
+  }
+  
+  .footer-links {
+      flex-wrap: wrap;
+  }
+  
+  .footer-column {
+      flex: 1 0 50%;
+      margin-bottom: 30px;
+  }
+  
+  .platform-card {
+      flex: 1 0 100%;
+  }
+}
